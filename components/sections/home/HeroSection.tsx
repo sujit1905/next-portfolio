@@ -116,26 +116,25 @@ export default function HeroSection() {
             className="font-display tracking-tight text-text-primary mb-2"
             style={{ fontSize: 'clamp(3rem, 8vw, 7.5rem)', lineHeight: '1.03' }}
           >
-            Crafting Digital
+            Sujit Mecwan
           </h1>
-          <h1
+          <h2
             className="font-display tracking-tight mb-6"
             style={{
-              fontSize: 'clamp(3rem, 8vw, 7.5rem)',
-              lineHeight: '1.03',
+              fontSize: 'clamp(2rem, 5vw, 4rem)',
+              lineHeight: '1.05',
               color: 'var(--color-accent)',
               textShadow: '0 0 60px rgba(212,255,63,0.3)',
             }}
           >
-            Experiences.
-          </h1>
+            MERN Stack Developer
+          </h2>
         </motion.div>
 
         {/* Subheading with typewriter */}
         <motion.div variants={staggerItemVariants} className="mb-10">
           <p className="text-lg md:text-xl text-text-secondary max-w-xl mx-auto mb-3">
-            Hi, I&apos;m{' '}
-            <span className="text-text-primary font-semibold">Sujit Mecwan</span> —
+            Building modern web applications with MongoDB, Express, React, and Node.js.
           </p>
           <div className="h-8 flex items-center justify-center">
             <span
