@@ -1,0 +1,26 @@
+{
+  "name": "Sujit Mecwan — Portfolio",
+  "short_name": "SM Portfolio",
+  "description": "MERN Stack Developer portfolio — React, Next.js, Node.js, MongoDB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["portfolio", "technology"],
+  "lang": "en"
+}
